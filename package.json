@@ -19,8 +19,10 @@
   "homepage": "https://github.com/adriantoczydlowski/node-chat#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "connect": "^3.4.1",
     "connect-flash": "^0.1.1",
     "connect-redis": "^3.1.0",
+    "cookie": "^0.3.1",
     "cookie-parser": "^1.4.3",
     "csrf": "^3.0.3",
     "csurf": "^1.9.0",
@@ -28,6 +30,8 @@
     "express": "^4.14.0",
     "express-partials": "^0.3.0",
     "express-session": "^1.14.0",
-    "redis": "^2.6.2"
+    "redis": "^2.6.2",
+    "socket.io": "^1.4.8",
+    "socket.io-redis": "^1.0.0"
   }
 }
